@@ -27,7 +27,7 @@ Per la creació d'aquesta web, s'han utilitzat les següents tecnologies i eines
 - HTML5/CSS3
 - Statcounter per l'analítica
   
-[🌐 URL de la web]((https://statcounter.com/p13214948/summary/))
+[ESTADISTICAS PAGINA WEB](https://statcounter.com/p13214948/summary/)
 
 ## Autor
 
