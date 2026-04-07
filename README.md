@@ -1,35 +1,72 @@
-const imageUrl = await google.predict("A professional corporate logo and branding image for a company named 'FOODLOGISTIC'. The image should feature a modern green electric delivery van with a leaf or eco-symbol, clean white background with subtle food patterns (fruits/vegetables), high resolution, minimalist and powerful business style.");
+💠 DOCUMENTACIÓ OFICIAL | PROJECTE INTERMODULAR
 
-📦 FOODLOGISTIC | Solucions Logístiques Sostenibles
+🛡️ FULL DE RUTA CORPORATIU: FOODLOGISTIC
 
-Benvinguts a la documentació oficial de la plataforma web de FOODLOGISTIC, un projecte d'avantguarda desenvolupat en el marc del mòdul Projecte Intermodular.
+"L'estàndard d'or en la logística alimentària sostenible."
 
-🚀 Sobre l'Empresa
+🚛 ESTAT: OPERATIU
 
-FOODLOGISTIC és una empresa fictícia líder en el sector de la logística alimentària. La nostra missió és transformar la distribució de productes frescos mitjançant una flota 100% elèctrica i un sistema de traçabilitat intel·ligent, garantint que la sostenibilitat i la qualitat vagin de la mà des del productor fins al client final.
+👤 AUTOR: DANIEL MARTINEZ GARAYOA
 
-🌐 Demostració i Accés
+📅 2024
 
-Podeu explorar la interfície i les funcionalitats de la plataforma a través del següent enllaç:
+📸 IMATGE DE MARCA (CAPÇALERA)
 
-👉 Visitar la Web de FOODLOGISTIC
+Figura 1: Unitat de repartiment elèctrica de FoodLogistic.
 
-🛠️ Tecnologies Utilitzades
+🏢 SOBRE L'EMPRESA
 
-Per al desenvolupament d'aquesta infraestructura digital, hem seleccionat eines d'última generació:
+FOODLOGISTIC és una iniciativa nascuda en el marc acadèmic per resoldre els reptes de l'última milla. Ens especialitzem en la distribució d'aliments frescos utilitzant una flota 100% elèctrica de color verd corporatiu, simbolitzant el nostre compromís amb el medi ambient.
 
-IA de Generació de Contingut: S'ha utilitzat Gemini 2.5 Flash (Google) per a la conceptualització, l'estructura del codi i la generació de textos corporatius.
+╔══════════════════════════════════════════════════════════════════════════╗
+║                                                                          ║
+║   NOM COMERCIAL:  FOODLOGISTIC                                           ║
+║   SECTOR:         Logística i Transport Alimentari                       ║
+║   MISSIÓ:         Emissions Zero & Frescor Màxima                        ║
+║   ESTUDIANT:      Daniel Martinez Garayoa                                ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
 
-Maquetació: HTML5 i Tailwind CSS per a un disseny responsive i ultra-ràpid.
 
-Analítica: Integració de Statcounter per al seguiment i l'anàlisi de dades de trànsit en temps real.
+🛠️ TECNOLOGIES I EINES UTILITZADES
 
-Tipografia: Google Fonts.
+Per a la creació d'aquesta identitat digital, s'han emprat les següents tecnologies:
 
-👤 Autor
+🤖 Intel·ligència Artificial: S'ha utilitzat Gemini 2.5 Flash per a la generació de l'estructura del codi, el contingut textual i l'optimització de la interfície.
 
-Aquest projecte ha estat conceptualitzat i executat per:
+🌐 Fonaments Web: Desenvolupat íntegrament amb HTML5 i CSS3, seguint els estàndards de semàntica i accessibilitat.
 
-Daniel Martinez Garayoa Estudiant del Projecte Intermodular
+📊 Analítica de Dades: Integració de Statcounter per al control d'audiència i mètriques de navegació.
 
-Aquesta web ha estat creada amb finalitats acadèmiques per demostrar la viabilitat de sistemes logístics eco-friendly.
+🍃 Sostenibilitat Visual: Disseny basat en el concepte Eco-Friendly, amb una camioneta de lliurament verda com a eix central de la flota.
+
+🔗 ACCÉS DIRECTE AL PROJECTE
+
+Pots visualitzar la demostració en viu de la web en el següent enllaç:
+
+👉 EXPLORAR WEB FOODLOGISTIC
+
+📋 TAULA DE CARACTERÍSTIQUES
+
+CARACTERÍSTICA
+
+DETALL TÈCNIC
+
+Tarifa Plus
+
+Sistema de prioritat VIP per a entregues urgents
+
+Flota
+
+Vehicles 100% elèctrics (Zero CO2)
+
+Interfície
+
+Disseny Responsive (Mòbil i Escriptori)
+
+Seguretat
+
+Monitorització de la cadena de fred
+
+[!NOTE]
+Aquest treball ha estat realitzat per Daniel Martinez Garayoa per al Projecte Intermodular.
