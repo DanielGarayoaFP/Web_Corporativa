@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODLOGISTIC | Frescor Sostenible en Temps Rècord</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Outfit', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-green {
+            background: linear-gradient(135deg, #064e3b 0%, #065f46 100%);
+        }
+        .plus-premium {
+            border: 2px solid #10b981;
+            background: linear-gradient(180deg, rgba(16, 185, 129, 0.05) 0%, rgba(255, 255, 255, 1) 100%);
+        }
+        .eco-badge {
+            background: #d1fae5;
+            color: #065f46;
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-800">
+
+    <!-- Navegació -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-lg border-b border-emerald-100">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-emerald-600 rounded-lg flex items-center justify-center text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>
+                </div>
+                <div class="text-2xl font-extrabold tracking-tight text-emerald-900">FOOD<span class="text-emerald-500">LOGISTIC</span></div>
+            </div>
+            <div class="hidden md:flex space-x-10 font-semibold text-slate-600">
+                <a href="#filosofia" class="hover:text-emerald-600 transition">La Nostra Ruta</a>
+                <a href="#flota" class="hover:text-emerald-600 transition">Flota Verda</a>
+                <a href="#tarifaplus" class="text-emerald-600 hover:text-emerald-700 transition">Tarifa Plus VIP</a>
+            </div>
+            <button class="bg-emerald-600 text-white px-7 py-2.5 rounded-full font-bold hover:bg-emerald-700 transition-all shadow-md">Àrea Client</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section amb Camioneta Verda -->
+    <header class="hero-green pt-32 pb-20 px-6 text-white overflow-hidden">
+        <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16">
+            <div class="lg:w-1/2 z-10">
+                <span class="eco-badge px-4 py-1.5 rounded-full text-xs font-bold mb-6 inline-block uppercase tracking-widest">100% Emisions Neutres</span>
+                <h1 class="text-5xl lg:text-7xl font-extrabold mb-8 leading-tight">Del camp a la teva taula, <span class="text-emerald-400">sense petjada.</span></h1>
+                <p class="text-xl text-emerald-100 mb-10 leading-relaxed">A FOODLOGISTIC hem reinventat el transport d'aliments. Utilitzem tecnologia d'última generació per garantir que la cadena de fred es mantingui intacta mentre protegim el planeta amb la nostra flota totalment elèctrica.</p>
+                <div class="flex flex-col sm:flex-row gap-5">
+                    <a href="#entrega" class="bg-emerald-500 hover:bg-emerald-400 text-white px-8 py-4 rounded-2xl font-bold text-center transition-all shadow-xl">
+                        Entrega Ràpida (Standard)
+                    </a>
+                    <a href="#tarifaplus" class="bg-white text-emerald-900 px-8 py-4 rounded-2xl font-bold text-center hover:bg-emerald-50 transition-all shadow-xl border-2 border-emerald-400">
+                        Subscriure's a la Tarifa Plus
+                    </a>
+                </div>
+            </div>
+            <div class="lg:w-1/2 relative flex justify-center">
+                <!-- Imatge de la camioneta verda -->
+                <div class="relative z-10 w-full max-w-lg">
+                    <img src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?q=80&w=1000&auto=format&fit=crop" 
+                         alt="Camioneta de lliurament verda sostenible" 
+                         class="rounded-[2rem] shadow-2xl border-8 border-white/10 object-cover h-[450px] w-full"
+                         onerror="this.src='https://via.placeholder.com/600x450/065f46/ffffff?text=Camioneta+Verda+Sostenible'">
+                </div>
+                <!-- Decoració darrera la imatge -->
+                <div class="absolute -bottom-10 -right-10 w-64 h-64 bg-emerald-400/20 rounded-full blur-3xl"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Detalls Addicionals de l'Empresa -->
+    <section id="filosofia" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-3xl mx-auto mb-20">
+                <h2 class="text-4xl font-extrabold text-slate-900 mb-6">Per què tothom parla de FOODLOGISTIC?</h2>
+                <p class="text-lg text-slate-600 leading-relaxed">No som només transportistes. Som el soci estratègic de restaurants, supermercats i productors locals que busquen excel·lència i compromís mediambiental.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="p-8 bg-emerald-50 rounded-3xl border border-emerald-100 hover:shadow-lg transition-all">
+                    <div class="text-3xl mb-4">🌡️</div>
+                    <h4 class="text-xl font-bold mb-3 text-emerald-900">Control de Fred</h4>
+                    <p class="text-slate-600 text-sm">Sensores IoT en temps real que t'envien la temperatura exacta del teu producte al teu mòbil.</p>
+                </div>
+                <div class="p-8 bg-emerald-50 rounded-3xl border border-emerald-100 hover:shadow-lg transition-all">
+                    <div class="text-3xl mb-4">⚡</div>
+                    <h4 class="text-xl font-bold mb-3 text-emerald-900">Càrrega Ultraràpida</h4>
+                    <p class="text-slate-600 text-sm">Els nostres hubs logístics estan dissenyats per carregar i sortir en menys de 15 minuts.</p>
+                </div>
+                <div class="p-8 bg-emerald-50 rounded-3xl border border-emerald-100 hover:shadow-lg transition-all">
+                    <div class="text-3xl mb-4">♻️</div>
+                    <h4 class="text-xl font-bold mb-3 text-emerald-900">Residu Zero</h4>
+                    <p class="text-slate-600 text-sm">Embalatges compostables i rutes optimitzades per IA per reduir el quilometratge innecessari.</p>
+                </div>
+                <div class="p-8 bg-emerald-50 rounded-3xl border border-emerald-100 hover:shadow-lg transition-all">
+                    <div class="text-3xl mb-4">📍</div>
+                    <h4 class="text-xl font-bold mb-3 text-emerald-900">Traçabilitat GPS</h4>
+                    <p class="text-slate-600 text-sm">Segueix la camioneta verda en el mapa i rep notificacions exactes d'arribada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria Operativa -->
+    <section id="flota" class="bg-slate-900 py-24 px-6 overflow-hidden">
+        <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-center">
+            <div class="lg:w-1/3 text-white">
+                <h2 class="text-4xl font-extrabold mb-6 leading-tight">Una flota que respira amb la ciutat.</h2>
+                <p class="text-slate-400 mb-8 leading-relaxed">Totes les nostres furgonetes i camions són 100% elèctrics. Això ens permet entrar a les zones de baixes emissions sense restriccions, garantint que la teva comanda arribi on d'altres no poden.</p>
+                <div class="flex items-center gap-4 py-4 px-6 bg-white/10 rounded-2xl border border-white/5">
+                    <span class="text-4xl font-bold text-emerald-400">98%</span>
+                    <span class="text-sm text-slate-300">Puntualitat mitjana en entregues Plus</span>
+                </div>
+            </div>
+            <div class="lg:w-2/3 grid grid-cols-2 gap-4">
+                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=500" alt="Magatzem d'aliments frescs" class="rounded-2xl h-48 w-full object-cover">
+                <img src="https://images.unsplash.com/photo-1595246140625-573b715d11dc?auto=format&fit=crop&q=80&w=500" alt="Repartidor amb uniforme verd" class="rounded-2xl h-48 w-full object-cover">
+                <img src="https://images.unsplash.com/photo-1566576721346-d4a3b4eaad5b?auto=format&fit=crop&q=80&w=500" alt="Tecnologia de lliurament" class="rounded-2xl h-48 w-full object-cover">
+                <img src="https://images.unsplash.com/photo-1516216628859-9bccecab13ca?auto=format&fit=crop&q=80&w=500" alt="Aliments de proximitat" class="rounded-2xl h-48 w-full object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Secció TARIFA PLUS -->
+    <section id="tarifaplus" class="py-24 px-6 bg-emerald-50">
+        <div class="max-w-5xl mx-auto plus-premium rounded-[3rem] p-8 md:p-16 shadow-2xl relative bg-white">
+            <div class="absolute top-10 right-10 hidden lg:block">
+                <svg width="100" height="100" viewBox="0 0 100 100" class="text-emerald-100 fill-current">
+                    <circle cx="50" cy="50" r="50"/>
+                </svg>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row gap-16 items-center">
+                <div class="lg:w-3/5">
+                    <span class="text-emerald-600 font-black tracking-widest text-sm uppercase mb-4 block">Experiència de Primera Classe</span>
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">Tarifa Plus: El poder de la immediatesa</h2>
+                    <p class="text-lg text-slate-600 mb-8">Pensada per a negocis d'alt volum que necessiten que la logística sigui invisible però perfecta. No perdis ni un segon de producció.</p>
+                    
+                    <ul class="space-y-4 mb-10">
+                        <li class="flex items-start gap-3">
+                            <div class="mt-1 bg-emerald-100 p-1 rounded-full"><svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg></div>
+                            <div><strong class="text-slate-900">Entrega en 60 minuts:</strong> Prioritat absoluta sobre qualsevol altra ruta.</div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="mt-1 bg-emerald-100 p-1 rounded-full"><svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg></div>
+                            <div><strong class="text-slate-900">Seguiment Multidispositiu:</strong> Panell de control exclusiu per a tauletes i terminals de cuina.</div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="mt-1 bg-emerald-100 p-1 rounded-full"><svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg></div>
+                            <div><strong class="text-slate-900">Assegurança Gold:</strong> Cobertura total del valor de la mercaderia davant qualsevol incidència.</div>
+                        </li>
+                    </ul>
+
+                    <button class="w-full sm:w-auto bg-emerald-600 text-white px-10 py-5 rounded-2xl font-black text-xl hover:bg-emerald-700 transition-all shadow-xl shadow-emerald-200 uppercase tracking-wide">
+                        Vull ser Membre Plus
+                    </button>
+                </div>
+                
+                <div class="lg:w-2/5 w-full">
+                    <div class="bg-emerald-900 rounded-3xl p-10 text-white shadow-2xl transform rotate-2">
+                        <h4 class="text-emerald-400 font-bold mb-2">Pla Mensual</h4>
+                        <div class="flex items-baseline gap-1 mb-6">
+                            <span class="text-6xl font-black">49€</span>
+                            <span class="text-emerald-300">/mes</span>
+                        </div>
+                        <p class="text-sm text-emerald-200 mb-8 leading-relaxed">Ideal per a restaurants i cadenes de distribució que mouen més de 500kg de producte setmanal.</p>
+                        <div class="pt-6 border-t border-emerald-800">
+                            <p class="text-xs text-center opacity-70">Inclou la instal·lació de sensors IoT gratuïta en el primer mes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-emerald-950 text-emerald-200 py-16 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+            <div class="md:col-span-2">
+                <div class="text-2xl font-black text-white mb-6">FOOD<span class="text-emerald-500">LOGISTIC</span></div>
+                <p class="max-w-md text-emerald-300/70 mb-6 leading-relaxed">Liderant la revolució del transport alimentari sostenible a tot el país. La nostra missió és alimentar el futur sense comprometre el medi ambient.</p>
+                <div class="flex gap-4">
+                    <div class="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-emerald-500 transition cursor-pointer">IG</div>
+                    <div class="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-emerald-500 transition cursor-pointer">LK</div>
+                    <div class="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-emerald-500 transition cursor-pointer">TW</div>
+                </div>
+            </div>
+            <div>
+                <h5 class="text-white font-bold mb-6">Serveis</h5>
+                <ul class="space-y-4 text-sm">
+                    <li><a href="#" class="hover:text-white transition">Entrega Express</a></li>
+                    <li><a href="#" class="hover:text-white transition">Cadena de Fred</a></li>
+                    <li><a href="#" class="hover:text-white transition">Solucions B2B</a></li>
+                    <li><a href="#" class="hover:text-white transition">Tarifa Plus</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="text-white font-bold mb-6">Contacte</h5>
+                <p class="text-sm mb-4">Carrer de la Sostenibilitat, 100<br>08001 Barcelona</p>
+                <p class="text-sm font-bold text-white">hola@foodlogistic.eco</p>
+                <p class="text-sm">+34 930 000 000</p>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto pt-8 border-t border-emerald-900 text-center text-xs opacity-50">
+            &copy; 2024 FOODLOGISTIC Global S.L. Transport Verd Garantit.
+        </div>
+    </footer>
+
+</body>
+</html>
