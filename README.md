@@ -1,6 +1,6 @@
 💠 DOCUMENTACIÓ OFICIAL | PROJECTE INTERMODULAR
 
-🛡️ FULL DE RUTA CORPORATIU: FOODLOGISTIC
+FULL DE RUTA CORPORATIU: FOODLOGISTIC
 
 "L'estàndard d'or en la logística alimentària sostenible."
 
@@ -8,9 +8,8 @@
 
 👤 AUTOR: DANIEL MARTINEZ GARAYOA
 
-📅 2024
+<img width="192" height="44" alt="image" src="https://github.com/user-attachments/assets/ce80de6d-3ca2-4ba5-9015-8e77f4a6e9b9" />
 
-📸 IMATGE DE MARCA (CAPÇALERA)
 
 Figura 1: Unitat de repartiment elèctrica de FoodLogistic.
 
