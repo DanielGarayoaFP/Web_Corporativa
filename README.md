@@ -1,3 +1,5 @@
+<img width="1902" height="18" alt="image" src="https://github.com/user-attachments/assets/50eded4b-7ee1-4e76-a3f8-ffaf2c251905" />
+
 💠 DOCUMENTACIÓ OFICIAL | PROJECTE INTERMODULAR
 
 "L'estàndard d'or en la logística alimentària sostenible."
@@ -5,9 +7,9 @@
 🚛 ESTAT: OPERATIU
 
 👤 AUTOR: DANIEL MARTINEZ GARAYOA
-
-<img width="192" height="44" alt="image" src="https://github.com/user-attachments/assets/ce80de6d-3ca2-4ba5-9015-8e77f4a6e9b9" />
-
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|||<img width="192" height="44" alt="image" src="https://github.com/user-attachments/assets/ce80de6d-3ca2-4ba5-9015-8e77f4a6e9b9" /> |||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 # Web Corporativa de FOODLOGISTIC
 
@@ -28,3 +30,5 @@ Per la creació d'aquesta web, s'han utilitzat les següents tecnologies i eines
 ## Autor
 
 👤 Daniel Martinez Garayoa
+
+<img width="1902" height="18" alt="image" src="https://github.com/user-attachments/assets/34c6f8be-a6dc-4ddb-975e-53f1e1977c7c" />
