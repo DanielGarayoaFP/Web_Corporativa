@@ -16,4 +16,4 @@ Per la creació d'aquesta web, s'han utilitzat les següents tecnologies i eines
 
 ## Autor
 
-👤 [El teu nom]
+👤 Daniel Martinez Garayoa
