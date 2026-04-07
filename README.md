@@ -1,7 +1,5 @@
 💠 DOCUMENTACIÓ OFICIAL | PROJECTE INTERMODULAR
 
-FULL DE RUTA CORPORATIU: FOODLOGISTIC
-
 "L'estàndard d'or en la logística alimentària sostenible."
 
 🚛 ESTAT: OPERATIU
@@ -11,61 +9,22 @@ FULL DE RUTA CORPORATIU: FOODLOGISTIC
 <img width="192" height="44" alt="image" src="https://github.com/user-attachments/assets/ce80de6d-3ca2-4ba5-9015-8e77f4a6e9b9" />
 
 
-Figura 1: Unitat de repartiment elèctrica de FoodLogistic.
+# Web Corporativa de FOODLOGISTIC
 
-🏢 SOBRE L'EMPRESA
+Aquesta és la web corporativa de [Nom de l'Empresa], una empresa fictícia dedicada a [descripció breu de l'empresa] dins el mòdul *Projecte Intermodular*.
 
-FOODLOGISTIC és una iniciativa nascuda en el marc acadèmic per resoldre els reptes de l'última milla. Ens especialitzem en la distribució d'aliments frescos utilitzant una flota 100% elèctrica de color verd corporatiu, simbolitzant el nostre compromís amb el medi ambient.
+## Demostració
 
-╔══════════════════════════════════════════════════════════════════════════╗
-║                                                                          ║
-║   NOM COMERCIAL:  FOODLOGISTIC                                           ║
-║   SECTOR:         Logística i Transport Alimentari                       ║
-║   MISSIÓ:         Emissions Zero & Frescor Màxima                        ║
-║   ESTUDIANT:      Daniel Martinez Garayoa                                ║
-║                                                                          ║
-╚══════════════════════════════════════════════════════════════════════════╝
+[🌐 URL de la web](https://danielgarayoafp.github.io/Web_Corporativa/)
 
+## Tecnologies Utilitzades
 
-🛠️ TECNOLOGIES I EINES UTILITZADES
+Per la creació d'aquesta web, s'han utilitzat les següents tecnologies i eines:
 
-Per a la creació d'aquesta identitat digital, s'han emprat les següents tecnologies:
+- Indiqueu l'eina IA que heu utilitat.
+- HTML5/CSS3
+- Statcounter per l'analítica
 
-🤖 Intel·ligència Artificial: S'ha utilitzat Gemini 2.5 Flash per a la generació de l'estructura del codi, el contingut textual i l'optimització de la interfície.
+## Autor
 
-🌐 Fonaments Web: Desenvolupat íntegrament amb HTML5 i CSS3, seguint els estàndards de semàntica i accessibilitat.
-
-📊 Analítica de Dades: Integració de Statcounter per al control d'audiència i mètriques de navegació.
-
-🍃 Sostenibilitat Visual: Disseny basat en el concepte Eco-Friendly, amb una camioneta de lliurament verda com a eix central de la flota.
-
-🔗 ACCÉS DIRECTE AL PROJECTE
-
-Pots visualitzar la demostració en viu de la web en el següent enllaç:
-
-👉 EXPLORAR WEB FOODLOGISTIC
-
-📋 TAULA DE CARACTERÍSTIQUES
-
-CARACTERÍSTICA
-
-DETALL TÈCNIC
-
-Tarifa Plus
-
-Sistema de prioritat VIP per a entregues urgents
-
-Flota
-
-Vehicles 100% elèctrics (Zero CO2)
-
-Interfície
-
-Disseny Responsive (Mòbil i Escriptori)
-
-Seguretat
-
-Monitorització de la cadena de fred
-
-[!NOTE]
-Aquest treball ha estat realitzat per Daniel Martinez Garayoa per al Projecte Intermodular.
+👤 Daniel Martinez Garayoa
