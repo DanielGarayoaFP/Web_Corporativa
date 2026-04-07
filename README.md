@@ -1,19 +1,35 @@
-# Web Corporativa de FoodLogistic
+const imageUrl = await google.predict("A professional corporate logo and branding image for a company named 'FOODLOGISTIC'. The image should feature a modern green electric delivery van with a leaf or eco-symbol, clean white background with subtle food patterns (fruits/vegetables), high resolution, minimalist and powerful business style.");
 
-Aquesta és la web corporativa de [Nom de l'Empresa], una empresa fictícia dedicada a [descripció breu de l'empresa] dins el mòdul *Projecte Intermodular*.
+📦 FOODLOGISTIC | Solucions Logístiques Sostenibles
 
-## Demostració
+Benvinguts a la documentació oficial de la plataforma web de FOODLOGISTIC, un projecte d'avantguarda desenvolupat en el marc del mòdul Projecte Intermodular.
 
-[🌐 URL de la web](https://[usuari].github.io/[nom-del-repositori])
+🚀 Sobre l'Empresa
 
-## Tecnologies Utilitzades
+FOODLOGISTIC és una empresa fictícia líder en el sector de la logística alimentària. La nostra missió és transformar la distribució de productes frescos mitjançant una flota 100% elèctrica i un sistema de traçabilitat intel·ligent, garantint que la sostenibilitat i la qualitat vagin de la mà des del productor fins al client final.
 
-Per la creació d'aquesta web, s'han utilitzat les següents tecnologies i eines:
+🌐 Demostració i Accés
 
-- Indiqueu l'eina IA que heu utilitat.
-- HTML5/CSS3
-- Statcounter per l'analítica
+Podeu explorar la interfície i les funcionalitats de la plataforma a través del següent enllaç:
 
-## Autor
+👉 Visitar la Web de FOODLOGISTIC
 
-👤 Daniel Martinez Garayoa
+🛠️ Tecnologies Utilitzades
+
+Per al desenvolupament d'aquesta infraestructura digital, hem seleccionat eines d'última generació:
+
+IA de Generació de Contingut: S'ha utilitzat Gemini 2.5 Flash (Google) per a la conceptualització, l'estructura del codi i la generació de textos corporatius.
+
+Maquetació: HTML5 i Tailwind CSS per a un disseny responsive i ultra-ràpid.
+
+Analítica: Integració de Statcounter per al seguiment i l'anàlisi de dades de trànsit en temps real.
+
+Tipografia: Google Fonts.
+
+👤 Autor
+
+Aquest projecte ha estat conceptualitzat i executat per:
+
+Daniel Martinez Garayoa Estudiant del Projecte Intermodular
+
+Aquesta web ha estat creada amb finalitats acadèmiques per demostrar la viabilitat de sistemes logístics eco-friendly.
