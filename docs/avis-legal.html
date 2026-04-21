@@ -1,1 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodLogístic S.A. | Excelencia en Logística Alimentaria</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            scroll-behavior: smooth;
+        }
 
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+        }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        /* Estilo para los modales legales */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 100;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 2rem;
+            border-radius: 1rem;
+            width: 90%;
+            max-width: 800px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Navegación -->
+    <nav class="glass-effect fixed w-full z-50 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center space-x-3">
+                    <div class="bg-blue-600 p-2 rounded-xl shadow-lg shadow-blue-200">
+                        <i class="fas fa-box-open text-white text-xl"></i>
+                    </div>
+                    <span class="text-2xl font-extrabold tracking-tight italic">FoodLogístic <span class="text-blue-600">S.A.</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#inicio" class="font-semibold text-slate-600 hover:text-blue-600 transition">Inicio</a>
+                    <a href="#servicios" class="font-semibold text-slate-600 hover:text-blue-600 transition">Servicios</a>
+                    <a href="#legal" class="font-semibold text-slate-600 hover:text-blue-600 transition">Información Legal</a>
+                    <a href="#contacto" class="bg-blue-600 text-white px-6 py-2.5 rounded-full font-bold hover:bg-blue-700 transition shadow-lg shadow-blue-200">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-gradient pt-40 pb-32 text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center md:text-left flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 space-y-6">
+                <span class="bg-blue-500/30 text-blue-100 px-4 py-1.5 rounded-full text-sm font-bold uppercase tracking-wider border border-white/20">Líderes en Logística</span>
+                <h1 class="text-5xl md:text-7xl font-extrabold leading-tight">
+                    Alimentamos la <br> <span class="text-blue-200 underline decoration-blue-400">Cadena de Suministro</span>
+                </h1>
+                <p class="text-lg text-blue-50 font-light max-w-xl">
+                    Soluciones integrales de transporte y almacenamiento a temperatura controlada. Garantizamos la frescura de sus productos desde el origen hasta el consumidor final.
+                </p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 pt-4">
+                    <a href="#servicios" class="bg-white text-blue-700 px-8 py-4 rounded-2xl font-extrabold text-center hover:bg-blue-50 transition">Nuestros Servicios</a>
+                    <a href="#legal" class="border-2 border-white/40 text-white px-8 py-4 rounded-2xl font-extrabold text-center hover:bg-white/10 transition">Ver Aviso Legal</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-16 md:mt-0 flex justify-center">
+                <div class="relative w-80 h-80 bg-blue-400/20 rounded-full flex items-center justify-center border border-white/10 animate-pulse">
+                    <i class="fas fa-truck-fast text-[12rem] text-white/90"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-slate-900 mb-4">¿Qué hacemos en FoodLogístic?</h2>
+            <div class="w-20 h-1.5 bg-blue-600 mx-auto rounded-full"></div>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm card-hover transition">
+                <div class="bg-blue-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fas fa-snowflake text-blue-600 text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Cadena de Frío</h3>
+                <p class="text-slate-500 leading-relaxed italic">Monitoreo constante de temperatura para productos perecederos y congelados.</p>
+            </div>
+            <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm card-hover transition">
+                <div class="bg-green-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fas fa-warehouse text-green-600 text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Almacenaje Inteligente</h3>
+                <p class="text-slate-500 leading-relaxed italic">Gestión de stock con tecnología de vanguardia y trazabilidad total.</p>
+            </div>
+            <div class="bg-amber-100/50 p-8 rounded-3xl border border-slate-100 shadow-sm card-hover transition">
+                <div class="bg-amber-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fas fa-route text-amber-600 text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Distribución Capilar</h3>
+                <p class="text-slate-500 leading-relaxed italic">Llegamos a cualquier punto de venta con eficiencia y puntualidad máxima.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Legal (Información de la Empresa) -->
+    <section id="legal" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-4xl font-extrabold mb-8 italic">Transparencia y <br><span class="text-blue-400">Responsabilidad</span></h2>
+                    <p class="text-slate-400 text-lg mb-8">
+                        En cumplimiento con la LSSI-CE, ponemos a su disposición los datos identificativos y las condiciones que rigen este sitio web. Nuestra prioridad es la seguridad y la claridad en cada interacción.
+                    </p>
+                    <div class="space-y-6">
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-slate-800 p-3 rounded-lg"><i class="fas fa-id-card text-blue-400"></i></div>
+                            <div>
+                                <p class="text-sm text-slate-500 uppercase font-bold tracking-widest">CIF / NIF</p>
+                                <p class="text-xl font-medium">[A-12345678]</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-slate-800 p-3 rounded-lg"><i class="fas fa-map-marker-alt text-blue-400"></i></div>
+                            <div>
+                                <p class="text-sm text-slate-500 uppercase font-bold tracking-widest">Dirección Principal</p>
+                                <p class="text-xl font-medium italic">Polígono Logístico "El Cruce", Nave 12. Madrid, ES.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white/5 p-8 rounded-3xl border border-white/10 backdrop-blur-sm">
+                    <h3 class="text-2xl font-bold mb-6 flex items-center">
+                        <i class="fas fa-shield-alt mr-3 text-blue-400"></i> Protección de Datos
+                    </h3>
+                    <div class="space-y-4 text-slate-300">
+                        <p><strong>Finalidad:</strong> Gestión de servicios logísticos y atención al cliente.</p>
+                        <p><strong>Responsable:</strong> FoodLogístic S.A.</p>
+                        <p><strong>Sus Derechos:</strong> Puede acceder, rectificar o suprimir sus datos en cualquier momento enviando un correo a nuestra dirección oficial.</p>
+                        <hr class="border-white/10 my-6">
+                        <div class="flex flex-col space-y-3">
+                            <button onclick="openModal('aviso-legal')" class="text-blue-400 hover:text-white font-bold transition text-left flex items-center">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Leer Aviso Legal Completo
+                            </button>
+                            <button onclick="openModal('privacidad')" class="text-blue-400 hover:text-white font-bold transition text-left flex items-center">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i> Política de Privacidad
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="bg-white py-12 border-t border-slate-200 text-center">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col items-center space-y-6">
+                <div class="flex items-center space-x-3 opacity-50 grayscale">
+                    <i class="fas fa-box-open text-2xl"></i>
+                    <span class="text-xl font-bold italic">FoodLogístic S.A.</span>
+                </div>
+                <div class="flex space-x-6 text-slate-400">
+                    <a href="#" class="hover:text-blue-600"><i class="fab fa-linkedin text-2xl"></i></a>
+                    <a href="#" class="hover:text-blue-600"><i class="fab fa-twitter text-2xl"></i></a>
+                    <a href="mailto:contacto@foodlogistic.es" class="hover:text-blue-600"><i class="fas fa-envelope text-2xl"></i></a>
+                </div>
+                <p class="text-slate-400 text-sm">
+                    Email: <span class="font-bold">contacto@foodlogistic.es</span> | Tel: +34 900 000 000
+                </p>
+                <p class="text-slate-300 text-[10px] uppercase tracking-widest font-bold">
+                    &copy; 2024 FoodLogístic S.A. - Todos los derechos reservados
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modales para contenido extenso -->
+    <div id="aviso-legal" class="modal">
+        <div class="modal-content">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold">Aviso Legal Completo</h2>
+                <button onclick="closeModal('aviso-legal')" class="text-slate-400 hover:text-red-500"><i class="fas fa-times text-xl"></i></button>
+            </div>
+            <div class="prose prose-slate text-slate-600 space-y-4">
+                <p><strong>Responsabilidad del uso:</strong> El acceso a esta web atribuye la condición de USUARIO. El usuario asume la responsabilidad del uso del portal de forma lícita y ética.</p>
+                <p><strong>Propiedad Intelectual:</strong> FoodLogístic S.A. es titular de todos los derechos de propiedad intelectual e industrial de su página web.</p>
+                <p><strong>Exclusión de garantías:</strong> FoodLogístic S.A. no se hace responsable de los daños de cualquier naturaleza que pudieran ocasionar errores u omisiones en los contenidos.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="privacidad" class="modal">
+        <div class="modal-content">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold">Política de Privacidad</h2>
+                <button onclick="closeModal('privacidad')" class="text-slate-400 hover:text-red-500"><i class="fas fa-times text-xl"></i></button>
+            </div>
+            <div class="prose prose-slate text-slate-600 space-y-4">
+                <p>Sus datos personales se tratarán de acuerdo con el RGPD. No cedemos datos a terceros salvo obligación legal o para la prestación efectiva de nuestros servicios logísticos.</p>
+                <p><strong>DPO:</strong> Puede contactar con nuestro delegado de protección de datos en el correo proporcionado.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal(id) {
+            document.getElementById(id).style.display = "block";
+            document.body.style.overflow = "hidden";
+        }
+
+        function closeModal(id) {
+            document.getElementById(id).style.display = "none";
+            document.body.style.overflow = "auto";
+        }
+
+        // Cerrar al hacer clic fuera del modal
+        window.onclick = function(event) {
+            if (event.target.className === 'modal') {
+                event.target.style.display = "none";
+                document.body.style.overflow = "auto";
+            }
+        }
+    </script>
+
+</body>
+</html>
