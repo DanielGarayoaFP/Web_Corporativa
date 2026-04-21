@@ -162,5 +162,27 @@ class="statcounter" src="https://c.statcounter.com/13214948/0/a8641cd7/1/"
 alt="Web Analytics Made Easy - Statcounter"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 bg-slate-900 text-white p-6 shadow-2xl z-[100] transform translate-y-0 transition-transform">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+        <p class="text-sm text-slate-300">
+            Utilitzem cookies pròpies i de tercers per millorar la teva experiència i analitzar el trànsit. 
+            Pots consultar la nostra <a href="cookies.html" class="text-emerald-400 underline">Política de Cookies</a>.
+        </p>
+        <button onclick="acceptCookies()" class="bg-emerald-600 px-6 py-2 rounded-full font-bold hover:bg-emerald-500 transition whitespace-nowrap">
+            Acceptar
+        </button>
+    </div>
+</div>
+
+<script>
+    function acceptCookies() {
+        document.getElementById('cookie-banner').style.display = 'none';
+        localStorage.setItem('cookiesAccepted', 'true');
+    }
+    // Si ja havien acceptat anteriorment, no mostrar el banner
+    if (localStorage.getItem('cookiesAccepted')) {
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+</script>
 </body>
 </html>
