@@ -1,1 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Cookies - Mi Sitio Web</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 leading-relaxed">
 
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-200 sticky top-0 z-10">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-blue-600">MiEmpresa</h1>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium text-gray-600">
+                <a href="#" class="hover:text-blue-600">Inicio</a>
+                <a href="#" class="hover:text-blue-600">Aviso Legal</a>
+                <a href="#" class="hover:text-blue-600 underline">Cookies</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-12">
+        <!-- Hero Section -->
+        <section class="mb-12">
+            <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Política de Cookies</h2>
+            <p class="text-lg text-gray-600">Actualizado por última vez el 24 de mayo de 2024. Te explicamos de forma clara cómo protegemos tu privacidad.</p>
+        </section>
+
+        <!-- 1. ¿Qué son las cookies? -->
+        <section class="mb-10 bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+            <h3 class="text-2xl font-bold mb-4 text-gray-800 flex items-center">
+                <span class="bg-blue-100 text-blue-600 p-2 rounded-lg mr-3">🍪</span>
+                ¿Qué son las cookies?
+            </h3>
+            <p class="mb-4">
+                Una cookie es un pequeño fichero de texto que se almacena en su navegador cuando visita casi cualquier página web. Su utilidad es que la web sea capaz de recordar su visita cuando vuelva a navegar por esa página. 
+            </p>
+            <p>
+                Suelen almacenar información de carácter técnico, preferencias personales, personalización de contenidos, estadísticas de uso, enlaces a redes sociales, acceso a cuentas de usuario, etc.
+            </p>
+        </section>
+
+        <!-- 2. Tipos de cookies -->
+        <section class="mb-10">
+            <h3 class="text-2xl font-bold mb-6 text-gray-800">Tipos de cookies que utilizamos</h3>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Técnicas -->
+                <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
+                    <div class="text-blue-500 mb-3 font-bold uppercase text-xs tracking-widest">Esenciales</div>
+                    <h4 class="text-xl font-bold mb-2">Cookies Técnicas</h4>
+                    <p class="text-gray-600 text-sm">
+                        Son aquellas estrictamente necesarias para el correcto funcionamiento del portal web y el uso de las diferentes opciones o servicios que en él existen. (Ej: sesión de usuario, seguridad, carritos de compra).
+                    </p>
+                </div>
+
+                <!-- Analíticas -->
+                <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
+                    <div class="text-green-500 mb-3 font-bold uppercase text-xs tracking-widest">Estadísticas</div>
+                    <h4 class="text-xl font-bold mb-2">Cookies Analíticas</h4>
+                    <p class="text-gray-600 text-sm">
+                        Permiten cuantificar el número de usuarios y realizar la medición y análisis estadístico de la utilización que hacen los usuarios del servicio. Utilizamos herramientas como <strong>Google Analytics</strong> para mejorar nuestra oferta.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Duración -->
+        <section class="mb-10 bg-blue-50 p-8 rounded-2xl border border-blue-100">
+            <h3 class="text-2xl font-bold mb-4 text-blue-900">Duración de las cookies</h3>
+            <div class="space-y-4">
+                <div class="flex items-start">
+                    <div class="font-bold min-w-[120px]">De Sesión:</div>
+                    <div>Diseñadas para recabar y almacenar datos mientras el usuario accede a la web. Se borran al cerrar el navegador.</div>
+                </div>
+                <hr class="border-blue-200">
+                <div class="flex items-start">
+                    <div class="font-bold min-w-[120px]">Persistentes:</div>
+                    <div>Los datos siguen almacenados en el terminal y pueden ser accedidos durante un periodo definido por el responsable de la cookie (minutos o años).</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Gestión del consentimiento -->
+        <section class="mb-10" id="gestion">
+            <h3 class="text-2xl font-bold mb-4 text-gray-800">Gestión del consentimiento</h3>
+            <p class="mb-6">Usted puede decidir qué cookies permite que se instalen en su equipo:</p>
+            
+            <div class="bg-white border border-gray-200 rounded-xl overflow-hidden">
+                <div class="p-4 border-b flex justify-between items-center">
+                    <span>Cookies Técnicas (Obligatorias)</span>
+                    <span class="text-xs font-bold text-gray-400 uppercase">Siempre activas</span>
+                </div>
+                <div class="p-4 flex justify-between items-center bg-gray-50">
+                    <span>Cookies Analíticas y de Terceros</span>
+                    <label class="relative inline-flex items-center cursor-pointer">
+                        <input type="checkbox" id="consent-check" class="sr-only peer" checked>
+                        <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-600"></div>
+                    </label>
+                </div>
+            </div>
+            <button onclick="saveConsent()" class="mt-4 bg-gray-900 text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition">Guardar preferencias</button>
+            <p id="msg-save" class="mt-2 text-green-600 text-sm hidden">Preferencias guardadas correctamente.</p>
+        </section>
+
+        <!-- 5. Cómo desactivarlas -->
+        <section class="mb-10">
+            <h3 class="text-2xl font-bold mb-4 text-gray-800">Cómo desactivar las cookies en su navegador</h3>
+            <p class="mb-6">Usted puede restringir, bloquear o borrar las cookies de cualquier sitio web desde su propio navegador:</p>
+            
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
+                <a href="https://support.google.com/chrome/answer/95647" target="_blank" class="p-4 bg-white border rounded-lg hover:border-blue-400 transition group">
+                    <div class="text-2xl mb-2 group-hover:scale-110 transition">🌐</div>
+                    <span class="text-sm font-semibold">Chrome</span>
+                </a>
+                <a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias" target="_blank" class="p-4 bg-white border rounded-lg hover:border-blue-400 transition group">
+                    <div class="text-2xl mb-2 group-hover:scale-110 transition">🦊</div>
+                    <span class="text-sm font-semibold">Firefox</span>
+                </a>
+                <a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac" target="_blank" class="p-4 bg-white border rounded-lg hover:border-blue-400 transition group">
+                    <div class="text-2xl mb-2 group-hover:scale-110 transition">🧭</div>
+                    <span class="text-sm font-semibold">Safari</span>
+                </a>
+                <a href="https://support.microsoft.com/es-es/windows/eliminar-y-administrar-cookies-168dab11-0753-043d-7c16-ede5947fc64d" target="_blank" class="p-4 bg-white border rounded-lg hover:border-blue-400 transition group">
+                    <div class="text-2xl mb-2 group-hover:scale-110 transition">💻</div>
+                    <span class="text-sm font-semibold">Edge</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-100 py-10 mt-12">
+        <div class="max-w-4xl mx-auto px-6 text-center text-gray-500 text-sm">
+            <p>© 2024 MiEmpresa. Todos los derechos reservados.</p>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="hover:underline">Privacidad</a>
+                <a href="#" class="hover:underline">Legal</a>
+                <a href="#" class="hover:underline">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function saveConsent() {
+            const isChecked = document.getElementById('consent-check').checked;
+            const msg = document.getElementById('msg-save');
+            
+            // Simulación de guardado en localStorage o cookie
+            localStorage.setItem('cookie_consent', isChecked ? 'accepted' : 'declined');
+            
+            msg.classList.remove('hidden');
+            setTimeout(() => {
+                msg.classList.add('hidden');
+            }, 3000);
+        }
+
+        // Cargar estado previo
+        window.onload = () => {
+            const consent = localStorage.getItem('cookie_consent');
+            if (consent === 'declined') {
+                document.getElementById('consent-check').checked = false;
+            }
+        }
+    </script>
+</body>
+</html>
