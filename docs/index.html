@@ -11,6 +11,63 @@
         .hero-gradient { background: linear-gradient(135deg, #022c22 0%, #065f46 100%); }
         .input-field { background: #f8fafc; border: 1px solid #e2e8f0; transition: all 0.3s ease; }
         .input-field:focus { border-color: #10b981; outline: none; box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.1); }
+
+        /* Estils personalitzats per a la privacitat professional */
+        .privacy-card {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 24px;
+            border: 1px solid rgba(0,0,0,0.05);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+        }
+        .privacy-card::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 6px;
+            background: linear-gradient(90deg, #10b981, #3b82f6);
+        }
+        .privacy-item {
+            margin-bottom: 2rem;
+            display: grid;
+            grid-template-columns: 40px 1fr;
+            gap: 15px;
+        }
+        .privacy-icon {
+            width: 32px; height: 32px;
+            background: rgba(16, 185, 129, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #10b981;
+            font-weight: 800;
+            font-size: 0.8rem;
+            border: 1px solid rgba(16, 185, 129, 0.2);
+        }
+        .rights-box {
+            margin-top: 20px;
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+        }
+        .rights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .right-tag {
+            background: white;
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            border-left: 3px solid #10b981;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
     </style>
 </head>
 <body class="bg-white text-slate-800">
@@ -108,40 +165,57 @@
         </div>
     </section>
 
-    <!-- Secció Textos Legals (NOVA) -->
+    <!-- Secció Textos Legals (MODIFICADA) -->
     <section id="legals" class="py-24 px-6 bg-slate-50 border-t border-slate-200">
-        <div class="max-w-4xl mx-auto text-slate-700 space-y-12">
+        <div class="max-w-4xl mx-auto space-y-12">
             <div class="text-center mb-10">
                 <h2 class="text-3xl font-black text-slate-900 uppercase tracking-tighter">Informació Legal</h2>
                 <div class="h-1 w-20 bg-emerald-500 mx-auto mt-2"></div>
             </div>
 
-            <div>
-                <h2 class="text-2xl font-bold text-emerald-700 mb-4">Política de Cookies</h2>
-                <p class="mb-4">Utilitzem cookies per analitzar el comportament de l'usuari amb Statcounter i millorar la funcionalitat de la nostra web.</p>
-                <p><strong>Com gestionar-les:</strong> Pots desactivar les cookies des de la configuració del teu navegador o clicant al banner d'acceptació que apareix en accedir al lloc.</p>
+            <!-- Targeta Professional de Privacitat -->
+            <div class="privacy-card">
+                <h2 class="text-2xl font-extrabold text-slate-900 mb-8">Política de Privacitat</h2>
+
+                <div class="privacy-item">
+                    <div class="privacy-icon">01</div>
+                    <div class="text-slate-700">
+                        <h3 class="text-xs font-bold text-emerald-600 uppercase tracking-widest mb-1">Finalitat</h3>
+                        <p>A FoodLogístic S.A. protegim les teves dades seguint el RGPD. Les utilitzem exclusivament per gestionar les teves consultes i oferir-te els nostres serveis logístics.</p>
+                    </div>
+                </div>
+
+                <div class="privacy-item">
+                    <div class="privacy-icon">02</div>
+                    <div class="text-slate-700">
+                        <h3 class="text-xs font-bold text-emerald-600 uppercase tracking-widest mb-1">Drets ARSLOP</h3>
+                        <p>Tens el control total de la teva informació. Pots exercir els teus drets en qualsevol moment:</p>
+                        <div class="rights-grid">
+                            <div class="right-tag"><strong>Accés:</strong> Consulta de dades</div>
+                            <div class="right-tag"><strong>Rectificació:</strong> Correcció</div>
+                            <div class="right-tag"><strong>Supressió:</strong> Borrat total</div>
+                            <div class="right-tag"><strong>Limitació:</strong> Restricció</div>
+                            <div class="right-tag"><strong>Oposició:</strong> Aturar ús</div>
+                            <div class="right-tag"><strong>Portabilitat:</strong> Format digital</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rights-box text-center">
+                    <p class="text-slate-600 text-sm">Per exercir els teus drets, contacta amb el nostre delegat de dades:</p>
+                    <a href="mailto:proteccio-dades@foodlogistic.com" class="text-emerald-600 font-bold hover:underline">proteccio-dades@foodlogistic.com</a>
+                </div>
             </div>
 
-            <div>
-                <h2 class="text-2xl font-bold text-emerald-700 mb-4">Avís Legal</h2>
-                <p><strong>Identitat:</strong> FOODLOGISTIC S.A. | NIF: A12345678</p>
-                <p class="mb-4"><strong>Adreça:</strong> Carrer de la Sostenibilitat 100, Barcelona.</p>
-                <p>La finalitat d'aquesta web és la prestació de serveis logístics sostenibles. L'usuari es compromet a fer un ús correcte del lloc web d'acord amb la llei i el present avís.</p>
-            </div>
-
-            <div>
-                <h2 class="text-2xl font-bold text-emerald-700 mb-4">Política de Privacitat</h2>
-                <p class="mb-6">A FoodLogístic S.A. estem compromesos amb la protecció de les teves dades personals seguint el RGPD i la LOPDGDD.</p>
-                <h3 class="font-bold text-lg mb-3">Drets ARSLOP (Accés, Rectificació, Supressió, Limitació, Oposició i Portabilitat)</h3>
-                <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 list-none p-0">
-                    <li class="bg-white p-3 rounded-lg shadow-sm border-l-4 border-emerald-500"><strong>Accés:</strong> Saber quines dades tractem.</li>
-                    <li class="bg-white p-3 rounded-lg shadow-sm border-l-4 border-emerald-500"><strong>Rectificació:</strong> Corregir dades inexactes.</li>
-                    <li class="bg-white p-3 rounded-lg shadow-sm border-l-4 border-emerald-500"><strong>Supressió:</strong> Eliminació de les teves dades.</li>
-                    <li class="bg-white p-3 rounded-lg shadow-sm border-l-4 border-emerald-500"><strong>Limitació:</strong> Limitar el tractament en certs casos.</li>
-                    <li class="bg-white p-3 rounded-lg shadow-sm border-l-4 border-emerald-500"><strong>Oposició:</strong> Oposar-te al tractament.</li>
-                    <li class="bg-white p-3 rounded-lg shadow-sm border-l-4 border-emerald-500"><strong>Portabilitat:</strong> Rebre les teves dades en format estructurat.</li>
-                </ul>
-                <p class="mt-6">Pots exercir aquests drets enviant un correu a: <a href="mailto:proteccio-dades@foodlogistic.com" class="text-emerald-600 font-bold underline">proteccio-dades@foodlogistic.com</a></p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+                <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
+                    <h2 class="text-xl font-bold text-emerald-700 mb-4">Política de Cookies</h2>
+                    <p class="text-slate-600 text-sm">Utilitzem cookies per analitzar el comportament de l'usuari amb Statcounter. Pots gestionar-les des de la configuració del navegador o el banner inferior.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
+                    <h2 class="text-xl font-bold text-emerald-700 mb-4">Avís Legal</h2>
+                    <p class="text-slate-600 text-sm"><strong>FOODLOGISTIC S.A.</strong> | NIF: A12345678<br>Carrer de la Sostenibilitat 100, Barcelona. L'ús de la web implica l'acceptació de les condicions legals.</p>
+                </div>
             </div>
         </div>
     </section>
